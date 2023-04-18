@@ -1,5 +1,7 @@
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
+  // see: https://kulshekhar.github.io/ts-jest/docs/getting-started/presets
+  preset: "ts-jest",
+  testEnvironment: "node",
+  clearMocks: true,
 };
